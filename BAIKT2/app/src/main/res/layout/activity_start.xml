@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@drawable/img"
+    >
+
+    <TextView
+        android:id="@+id/textviewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/allura"
+        android:shadowRadius="15"
+        android:text="Welcome to
+                                 Tree Lover's Garden!"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSIwelcome"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/btn_border"
+            android:text="sign in"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSUwelcome"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/buttonSIwelcome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/btn_border"
+            android:text="sign up"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

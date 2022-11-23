@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "170634102193",
+    "firebase_url": "https://tree-d1d3b-default-rtdb.firebaseio.com",
+    "project_id": "tree-d1d3b",
+    "storage_bucket": "tree-d1d3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170634102193:android:02bea516195338bb81a990",
+        "android_client_info": {
+          "package_name": "com.example.baikt2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170634102193-o4thsm5nqt2off5h3v31ls1t6t7svv1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcDwRB3aNaLzWHhG15vUCOT9Xjl96daWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170634102193-o4thsm5nqt2off5h3v31ls1t6t7svv1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
